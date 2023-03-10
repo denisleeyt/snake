@@ -1,0 +1,16 @@
+# min files
+**/*.min.js
+/dist
+/es
+/docs
+/.dumi
+/docs-dist
+**/__mocks__/**/*.*
+**/__tests__/**/*.*
+
+/public
+.umi
+
+publish-dev.js
+
+iconfont.js

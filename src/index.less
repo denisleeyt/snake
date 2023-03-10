@@ -1,0 +1,74 @@
+@import '~antd/es/style/variable.less';
+
+.snake-container {
+  .ant-form {
+    margin-bottom: 16px;
+    padding: @padding-md;
+    background: @white;
+
+    .ant-form-item-label {
+      font-weight: bolder;
+    }
+
+    .ant-select {
+      min-width: 200px;
+    }
+
+    &.ant-form-inline,
+    &.ant-form-horizontal {
+      .ant-form-item-label,
+      .ant-form-item-control {
+        max-width: 50vw;
+      }
+      .ant-form-item-label > label {
+        align-items: center;
+        height: 100%;
+        white-space: initial;
+        text-align: left;
+      }
+      .ant-form-item-control > div {
+        height: 100%;
+      }
+    }
+
+    &.ant-form-inline {
+      .ant-form-item {
+        margin-bottom: 8px;
+      }
+    }
+  }
+  .ant-table {
+    .ant-table-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .table-header-title {
+        font-weight: bolder;
+      }
+      .table-header-toolbar {
+        .ant-btn {
+          margin-left: @margin-xs;
+        }
+        .ant-btn-link {
+          font-size: larger;
+        }
+      }
+    }
+
+    .anticon {
+      margin-right: @margin-xss;
+      margin-left: @margin-xss;
+    }
+    .ant-btn-link {
+      padding: 0;
+    }
+  }
+  .ant-drawer-content-wrapper {
+    min-width: 520px;
+
+    .ant-drawer-body .ant-form {
+      padding: 0;
+    }
+  }
+}
