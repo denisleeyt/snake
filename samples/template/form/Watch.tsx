@@ -1,9 +1,9 @@
 /**
- * desc: watch 效果，值的级联
+ * desc: watch support inheritance
  */
 
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const schema = {
   "type": "form",

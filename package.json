@@ -1,5 +1,5 @@
 {
-  "name": "@bybit-fe/snake",
+  "name": "@denisli/snake",
   "description": "A configurable render library",
   "version": "0.1.8",
   "license": "MIT",
@@ -30,6 +30,8 @@
   "typings": "index.d.ts",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
+    "@ant-design/pro-table": "^3.5.2",
+    "ahooks": "^3.7.5",
     "antd": "^4.23.2",
     "classnames": "^2.3.0",
     "lodash": "^4.17.0",
@@ -38,6 +40,7 @@
     "omit.js": "^2.0.2",
     "react": "^16.12.0 || ^17.0.0",
     "react-dom": "^16.12.0 || ^17.0.0",
+    "react-i18next": "^12.2.0",
     "react-router": "^5.2.0",
     "tapable": "^2.2.1",
     "umi-request": "^1.4.0"

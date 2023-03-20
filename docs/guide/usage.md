@@ -1,9 +1,9 @@
 ---
-title: 使用
+title: Usage
 order: 2
 toc: menu
 nav:
-  title: 指南
+  title: Guide
   order: 1
 ---
 
@@ -17,7 +17,7 @@ $ yarn add snake
 
 ```tsx
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const schema = {
   "type": "button",
@@ -38,4 +38,4 @@ const schema = {
 export default () => <Snake {...schema} />;
 ```
 
-按需传入不同的 schema 即可，更多示例参加 [配置](/plugins) 部分。
+按需传入不同的 schema 即可，更多示例参加 [Config](/plugins) 部分。

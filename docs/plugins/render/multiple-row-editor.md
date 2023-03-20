@@ -11,7 +11,7 @@ title: render
 
 ```tsx
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const schema = {
   "type": "form",
@@ -69,7 +69,7 @@ export default () => <Snake {...schema} />;
  * desc: 多种 render 类型，并设定默认值
  */
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const schema = {
   "type": "form",
@@ -143,14 +143,14 @@ export default () => <Snake {...schema} />;
 
 | 参数      | 说明           | 类型                   | 默认值 |
 | --------- | -------------- | ---------------------- | ------ |
-| fields    | 编辑项信息配置 | Field[]                | []     |
+| fields    | 编辑项信息Config | Field[]                | []     |
 | value     | 值             | array                  | []     |
 | onChange  | 改变时的回调   | function(value: array) | -      |
 | showTitle | 是否展示标题行 | boolean                | true   |
 
 ### Field
 
-编辑项配置信息
+编辑项Config信息
 
 | 参数         | 说明                            | 类型          | 默认值  |
 | ------------ | ------------------------------- | ------------- | ------- |

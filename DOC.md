@@ -1,5 +1,5 @@
-# 文档贡献指南
+# document contribution Guide
 
-- docs： 存放对应的 schema 说明，md 格式
-- samples： 示例可以放在这里，在 md 文档里通过 `code` 引入
+- docs： store specific schema introduction，md format
+- samples： sample can put here， md document can import samples through `code`
 

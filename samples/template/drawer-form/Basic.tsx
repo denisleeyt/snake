@@ -1,5 +1,5 @@
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const schema = {
   "type": "space",
@@ -33,7 +33,7 @@ const schema = {
         "fields": [
           {
             "name": "countryId",
-            "label": "数字代码:",
+            "label": "Digital Code:",
             "render": "input",
             "rules": [
               {
@@ -44,17 +44,17 @@ const schema = {
           },
           {
             "name": "enName",
-            "label": "英文名称:",
+            "label": "English Name:",
             "render": "input"
           },
           {
             "name": "cnName",
-            "label": "中文名称:",
+            "label": "Chinese Name:",
             "render": "input"
           },
           {
             "name": "countryCode",
-            "label": "国家代码:",
+            "label": "≈:",
             "render": "input"
           }
         ],

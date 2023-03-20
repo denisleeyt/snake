@@ -1,10 +1,10 @@
 /**
- * desc: 表单有三种模式：`add` | `edit` | `view`，分别对应 CRUD 中的新增、编辑和详情的场景。
+ * desc: three types：`add` | `edit` | `view`
  */
 
 import React, { useState } from 'react';
 import { Space } from 'antd';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const RenderModes = Snake.RenderModes;
 Snake.setCtx('mode', RenderModes.ADD);

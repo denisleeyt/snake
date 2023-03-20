@@ -139,7 +139,7 @@ export const SchemaForm: React.FC<SchemaComponentType> = forwardRef(
      */
     useEffect(() => {
       api.registerAction('form-refresh', (actionProps) => {
-        // 对应name,form会自动赋值的
+        // according to name,form will get the value automatically
         formRef.setFieldsValue(actionProps);
       });
 

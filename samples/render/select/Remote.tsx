@@ -1,8 +1,8 @@
 /**
- * desc: 远程获取下拉选项数据
+ * desc: fetch dropdown list data
  */
 import React, { useState } from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const Remote = () => {
   const [value, setValue] = useState();

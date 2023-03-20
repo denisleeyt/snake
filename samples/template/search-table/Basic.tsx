@@ -1,5 +1,5 @@
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const schema = {
   "type": "search-table",
@@ -7,7 +7,7 @@ const schema = {
     "fields": [
       {
         "name": "countryCode",
-        "label": "国家代码:",
+        "label": "Country code:",
         "render": "input"
       }
     ]
@@ -24,23 +24,23 @@ const schema = {
       },
       {
         "key": "countryId",
-        "title": "数字代码"
+        "title": "Digital Code"
       },
       {
         "key": "enName",
-        "title": "英文名称"
+        "title": "English Name"
       },
       {
         "key": "cnName",
-        "title": "中文名称"
+        "title": "Chinese Name"
       },
       {
         "key": "countryCode",
-        "title": "国家代码"
+        "title": "Country code"
       },
       {
         "key": "operation",
-        "title": "操作",
+        "title": "Action",
         "render": [
           "search-table-view",
           "search-table-edit",
@@ -79,7 +79,7 @@ const schema = {
     "fields": [
       {
         "name": "countryId",
-        "label": "数字代码:",
+        "label": "Digital Code:",
         "render": "input",
         "rules": [
           {
@@ -90,17 +90,17 @@ const schema = {
       },
       {
         "name": "enName",
-        "label": "英文名称:",
+        "label": "English Name:",
         "render": "input"
       },
       {
         "name": "cnName",
-        "label": "中文名称:",
+        "label": "Chinese Name:",
         "render": "input"
       },
       {
         "name": "countryCode",
-        "label": "国家代码:",
+        "label": "Country code:",
         "render": "input"
       }
     ],

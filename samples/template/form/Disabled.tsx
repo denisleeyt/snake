@@ -1,10 +1,6 @@
-/**
- * desc: disabled 属性，支持级联配置。
- */
-
 import React, { useState } from 'react';
 import { Space } from 'antd';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const RenderModes = Snake.RenderModes;
 Snake.setCtx('mode', RenderModes.ADD);

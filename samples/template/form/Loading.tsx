@@ -1,10 +1,10 @@
 /**
- * desc: 编辑和详情，以及 field 中有数据请求时，展示 loading 状态。
+ * desc: edit, view detail and fetching data will show loading status
  */
 
 import React, { useState } from 'react';
 import { Space } from 'antd';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const RenderModes = Snake.RenderModes;
 Snake.setCtx('mode', RenderModes.ADD);

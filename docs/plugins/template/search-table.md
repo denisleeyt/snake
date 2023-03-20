@@ -22,8 +22,8 @@ search-table 代表一个标准的 CRUD 模块。
 | 参数 | 说明 | 类型 | 默认值 |
 | --- | --- | --- | --- |
 | search | 搜索条件，参见 [search](#search) | object | - |
-| table | 表格配置，参见 [table](./table) | object | {} |
-| form | 表单配置，新增、编辑、详情弹窗的配置, 参见 [drawer-form](./drawer-form) | object | {} |
+| table | 表格Config，参见 [table](./table) | object | {} |
+| form | 表单Config，新增、编辑、详情弹窗的Config, 参见 [drawer-form](./drawer-form) | object | {} |
 | pattern | 表单弹框形式，`drawer` / `modal` | string | 'drawer' |
 | params | 额外的请求参数 | object | {} |
 
@@ -33,13 +33,13 @@ search-table 代表一个标准的 CRUD 模块。
 | --------- | ------------------------------------- | ---- | ------ |
 | immediate | 实时搜索，true 时不会渲染 search 按钮 | bool | -      |
 
-其它配置同 [form](form/#api)
+其它Config同 [form](form/#api)
 
 ## Schema [render]
 
-search-table 可以直接使用 drawer-form、table 的 schema，除此之外，也支持以下 schema，进一步提升配置效率。
+search-table 可以直接使用 drawer-form、table 的 schema，除此之外，也支持以下 schema，进一步提升Config效率。
 
-对于一些操作按钮，默认都是 "Link Button"，还有一些额外的属性配置。
+对于一些操作按钮，默认都是 "Link Button"，还有一些额外的属性Config。
 
 | 参数    | 说明                       | 类型   | 默认值 |
 | ------- | -------------------------- | ------ | ------ |
@@ -48,7 +48,7 @@ search-table 可以直接使用 drawer-form、table 的 schema，除此之外，
 | tooltip | 文字提示内容               | string | -      |
 | props   | button 属性                | object | -      |
 | confirm | popconfirm 内容            | string | -      |
-| remote  | remote schema 配置         | object | -      |
+| remote  | remote schema Config         | object | -      |
 | success | remote 成功的 message 内容 | string | -      |
 
 schema 对各个属性的支持情况如下：
@@ -64,7 +64,7 @@ schema 对各个属性的支持情况如下：
 
 ### search-table-add
 
-标准的 `add` 按钮，对应的配置如下：
+标准的 `add` 按钮，对应的Config如下：
 
 ```json
 {
@@ -93,7 +93,7 @@ schema 对各个属性的支持情况如下：
 
 ### search-table-refresh
 
-标准的 `refresh` 按钮，对应的配置如下：
+标准的 `refresh` 按钮，对应的Config如下：
 
 ```json
 {
@@ -117,7 +117,7 @@ schema 对各个属性的支持情况如下：
 
 ### search-table-view
 
-标准的 `view` 按钮，对应的配置如下：
+标准的 `view` 按钮，对应的Config如下：
 
 ```json
 {
@@ -146,7 +146,7 @@ schema 对各个属性的支持情况如下：
 
 ### search-table-edit
 
-标准的 `view` 按钮，对应的配置如下：
+标准的 `view` 按钮，对应的Config如下：
 
 ```json
 {
@@ -175,7 +175,7 @@ schema 对各个属性的支持情况如下：
 
 ### search-table-confirm
 
-标准的 `confirm` 按钮，对应的配置如下：
+标准的 `confirm` 按钮，对应的Config如下：
 
 ```json
 {
@@ -222,7 +222,7 @@ schema 对各个属性的支持情况如下：
 
 ### search-table-remote-action
 
-针对 remote 结果的处理逻辑，默认返回 200 时对应请求成功，对应的配置如下：
+针对 remote 结果的处理逻辑，默认返回 200 时对应请求成功，对应的Config如下：
 
 ```json
 {

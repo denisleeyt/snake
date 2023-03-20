@@ -61,6 +61,7 @@ export default class SnakeCore {
   //   syncHook.tap(hookName, callback);
   // }
 
+  // tap the hooks and define the callback
   registerHook(hook: SnakeHook) {
     const hookName = typeof hook === 'string' ? hook : hook.name;
     const argNumber = typeof hook === 'string' ? 1 : hook?.argNumber ?? 1;

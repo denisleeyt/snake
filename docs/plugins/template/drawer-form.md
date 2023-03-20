@@ -17,7 +17,7 @@ drawer-form 代表一个带抽屉（drawer）容器的表单。
 
 | 参数  | 说明                                                           | 类型   | 默认值 |
 | ----- | -------------------------------------------------------------- | ------ | ------ |
-| form  | 配置除 [form](form/#api) 外，还有额外的 header 需要配置        | object | -      |
+| form  | Config除 [form](form/#api) 外，还有额外的 header 需要Config        | object | -      |
 | props | 请参考 [antd Drawer](https://ant.design/components/drawer-cn/) | object | {}     |
 
 #### form.header
@@ -28,8 +28,8 @@ drawer-form 代表一个带抽屉（drawer）容器的表单。
 
 | 参数    | 说明                      | 类型   | 默认值 |
 | ------- | ------------------------- | ------ | ------ |
-| title   | 弹框的 title，schema 配置 | object | -      |
-| toolbar | 弹框的工具栏，schema 配置 | object | -      |
+| title   | 弹框的 title，schema Config | object | -      |
+| toolbar | 弹框的工具栏，schema Config | object | -      |
 
 ## Schema [action]
 
@@ -52,7 +52,7 @@ drawer-form 支持以下 schema，用于控制相应的交互和逻辑等。
 
 | 参数 | 说明 | 类型 | 默认值 |
 | --- | --- | --- | --- |
-| form | 配置参考 [form](form/#api) | object | - |
+| form | Config参考 [form](form/#api) | object | - |
 | schema | 有多个不同的 form 弹窗时指定对应的 form schema，示例参考 [search-table](search-table#多个弹窗表单) | string | 'form' |
 
 ### drawer-hide

@@ -3,7 +3,7 @@ title: 自定义 Schema
 order: 1
 toc: menu
 nav:
-  title: 配置
+  title: Config
   order: 2
 ---
 
@@ -22,7 +22,7 @@ plugin 中可用的 api 参见 [API](/guide#api).
  * desc: 默认 color 是 red 的 span
  */
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 export default function RedSpanPlugin(api: SnakeApi) {
   api.registerRender('red-span', ({ children, props }, ctx) => {
@@ -48,10 +48,10 @@ export default () => <Snake {...schema} />;
 
 ```tsx
 /**
- * desc: 在 'red-span' 的基础上，支持已有 Schema 配置
+ * desc: 在 'red-span' 的基础上，支持已有 Schema Config
  */
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 export default function RedSpanPlugin(api: SnakeApi) {
   api.registerRender('red-span-schema', ({ children, props }, ctx) => {
@@ -94,10 +94,10 @@ export default () => <Snake {...schema} />;
 
 ```tsx
 /**
- * desc: 通过 `simplify` 抽象配置
+ * desc: 通过 `simplify` 抽象Config
  */
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 Snake.simplify('render', 'hello-world-message', {
   "type": "button",

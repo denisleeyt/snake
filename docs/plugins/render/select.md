@@ -25,7 +25,7 @@ group:
 | --- | --- | --- | --- |
 | mode | 模式 | RenderModes | ‘add’ |
 | value | 当前选中的条目 | string / number | - |
-| remote | 获取远程获取的 remote 配置 | object | - |
+| remote | 获取远程获取的 remote Config | object | - |
 | options | 下拉框内容 | [{ label, value }] | - |
 | disabled | 是否禁用状态，默认为 false | boolean | false |
 | autoClear | 当 value 没有匹配的 option 时自动清空 | boolean | false |

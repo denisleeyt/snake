@@ -1,11 +1,11 @@
 /**
- * desc: setTimeZone 执行后，会改变全局默认的时区
+ * desc: setTimeZone will change the global timezone
  */
 
 import React, { useEffect, useState } from 'react';
 import { Button, Space } from 'antd';
 import moment from 'moment';
-import Snake, { setTimeZone, getTimeZone } from '@bybit-fe/snake';
+import Snake, { setTimeZone, getTimeZone } from '@denisli/snake';
 
 const schema = {
   type: 'date-picker',

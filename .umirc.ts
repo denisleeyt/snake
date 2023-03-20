@@ -21,7 +21,7 @@ export default defineConfig({
   //   ],
   // },
   navs: [
-    null, // null 值代表保留约定式生成的导航，只做增量配置
+    null, // null 值代表保留约定式生成的导航，只做增量Config
     {
       title: 'GitLab',
       path: 'https://code.bydev.io/cht/fiat/lowcode/snake',
@@ -48,7 +48,7 @@ export default defineConfig({
       // 要代理的地址
       // target: 'http://x-lab.devtest.ww5sawfyut0k.bitsvc.io/mock/fiat-test/low-code/',
       target: 'http://rap2api.taobao.org/app/mock/299414/',
-      // 配置了这个可以从 http 代理到 https
+      // Config了这个可以从 http 代理到 https
       // 依赖 origin 的功能可能需要这个，比如 cookie
       changeOrigin: true,
     },

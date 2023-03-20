@@ -1,5 +1,5 @@
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const schema ={
   "type": "table",
@@ -14,19 +14,19 @@ const schema ={
     },
     {
       "key": "countryId",
-      "title": "数字代码"
+      "title": "Digital Code"
     },
     {
       "key": "enName",
-      "title": "英文名称"
+      "title": "English Name"
     },
     {
       "key": "cnName",
-      "title": "中文名称"
+      "title": "Chinese Name"
     },
     {
       "key": "countryCode",
-      "title": "国家代码"
+      "title": "Country code"
     }
   ],
   "header": {

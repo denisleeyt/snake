@@ -1,9 +1,9 @@
 ---
-title: 网络请求
+title: Request
 order: 4
 toc: menu
 nav:
-  title: 指南
+  title: Guide
   order: 1
 ---
 

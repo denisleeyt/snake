@@ -13,7 +13,7 @@ group:
 
 ```tsx
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const schema = {
   "type": "html",

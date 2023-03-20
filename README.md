@@ -1,8 +1,8 @@
-# @bybit-fe/snake
+# @denisli/snake
 
 A configurable render library, especially suitable for low code.
 
-文档地址： [https://low-code.ffe390afd658c19dcbf707e0597b846d.de/](https://low-code.ffe390afd658c19dcbf707e0597b846d.de/)
+doc： [https://low-code.ffe390afd658c19dcbf707e0597b846d.de/](https://low-code.ffe390afd658c19dcbf707e0597b846d.de/)
 
 ## Development Guideline
 

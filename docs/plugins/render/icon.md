@@ -13,7 +13,7 @@ group:
 
 ```tsx
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 import { Space } from 'antd';
 
 const supportIconList = [
@@ -482,7 +482,7 @@ export default () => (
 
 ```tsx
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 import { Space } from 'antd';
 
 const supportIconList = [
@@ -748,7 +748,7 @@ export default () => (
 
 ```tsx
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 import { Space } from 'antd';
 
 const supportIconList = [
@@ -946,7 +946,7 @@ export default () => (
 
 ```tsx
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const httpIconSchema = {
   "type": "icon",

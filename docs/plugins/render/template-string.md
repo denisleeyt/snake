@@ -13,7 +13,7 @@ group:
 
 ```tsx
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 // 模拟设置 ctx
 Snake.setCtx('info', { message: 'data from ctx' });

@@ -100,7 +100,7 @@ type OptionType = {
   tooltip: 'xxx',     // 'xxx' | 'ctx => {}' | '{}';
   visible: true,      // 'boolean' | 'ctx => boolean';
   disabled: true,     // 'boolean' | 'ctx => boolean';
-  action: {},         // action 配置
+  action: {},         // action Config
   remote: {},         // 获取 dataSource
 
   props: {},          // 透传给具体的组件
@@ -184,7 +184,7 @@ Render template data with `ctx`.
         // ['visible' | 'disabled']: {
         //   default: false,
         //   relates: ['type'],
-        //   ...                         // 条件表达式配置
+        //   ...                         // 条件表达式Config
         // }
       },
     },
@@ -256,7 +256,7 @@ Render template data with `ctx`.
     },
     {
       key: 'operation',
-      title: '操作',
+      title: 'Action',
       render: [
         {
           type: 'icon',
@@ -451,4 +451,4 @@ Action is varied with `pattern`.
 
 ### 时间值
 
-统一用 10 位时间戳，前端根据配置展示。
+统一用 10 位时间戳，前端根据Config展示。

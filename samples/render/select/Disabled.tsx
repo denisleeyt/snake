@@ -1,10 +1,10 @@
 /**
- * desc: 当 `disabled` 为 `true` 时代表不可编辑
+ * desc: when `disabled` equal `true` means cannot edit
  */
 
 import React, { useState } from 'react';
 import { Space } from 'antd';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const schema = {
   "type": "select",

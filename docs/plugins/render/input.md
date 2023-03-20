@@ -11,7 +11,7 @@ group:
 
 ```tsx
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const schema = {
   "type": "input",
@@ -27,7 +27,7 @@ export default () => <Snake {...schema} />;
 
 ```tsx
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const schema = {
   "type": "input",
@@ -44,7 +44,7 @@ export default () => <Snake {...schema} />;
 
 ```tsx
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const schema = {
   "type": "textarea",
@@ -60,7 +60,7 @@ export default () => <Snake {...schema} />;
 
 ```tsx
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const schema = {
   "type": "textarea",
@@ -77,7 +77,7 @@ export default () => <Snake {...schema} />;
 
 ```tsx
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const schema = {
   "type": "textdecode",
@@ -93,7 +93,7 @@ export default () => <Snake {...schema} />;
 
 ```tsx
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const schema = {
   "type": "input",

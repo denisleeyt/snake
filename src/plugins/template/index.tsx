@@ -2,6 +2,7 @@ import FormRenderPlugin from './Form';
 import TableRenderPlugin from './Table';
 import SearchTableRenderPlugin from './SearchTable/index';
 import DrawerFormRenderPlugin from './DrawerForm';
+import { ProTable } from './ProTable';
 
 import type { SnakeApi } from '../../type';
 
@@ -15,6 +16,7 @@ function TemplatePlugins(api: SnakeApi) {
   api.registerPlugin(TableRenderPlugin);
   api.registerPlugin(SearchTableRenderPlugin);
   api.registerPlugin(DrawerFormRenderPlugin);
+  ProTable(api);
 }
 
 export { TemplatePlugins as default };

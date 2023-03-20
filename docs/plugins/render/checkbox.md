@@ -11,7 +11,7 @@ group:
 
 ```tsx
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 const RenderModes = Snake.RenderModes;
 
@@ -33,7 +33,7 @@ export default () => <Snake {...schema} />;
 
 ```tsx
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 const RenderModes = Snake.RenderModes;
 
 const schema = {
@@ -54,7 +54,7 @@ export default () => <Snake {...schema} />;
 
 ```tsx
 import React from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 const RenderModes = Snake.RenderModes;
 
 const schema = {
@@ -71,7 +71,7 @@ export default () => <Snake {...schema} />;
 
 ```tsx
 import React, { useState } from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 
 export default () => {
   const [value, setValue] = useState(['Apple', 'Orange']);

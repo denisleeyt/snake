@@ -25,7 +25,7 @@ table 是一个标准的表格。
 | 参数      | 说明                                                          | 类型       | 默认值     |
 |---------|-------------------------------------------------------------|----------|---------|
 | remote  | remote schema, 初始化即触发请求                                     | object   | -        |
-| columns | 表格列的配置描述                                                       | Column[] | []       |
+| columns | 表格列的Config描述                                                       | Column[] | []       |
 | props   | 请参考 [antd Form](https://ant.design/components/form-cn/#API) | object   | {}  |
 
 ### Column
@@ -34,7 +34,7 @@ table 是一个标准的表格。
 |---------|--------------------------|-------------|-------|
 | render  | 表格列的 render schema       | object      | -     |
 
-其它配置同 [antd Table.Column](https://ant.design/components/table-cn/#Column)
+其它Config同 [antd Table.Column](https://ant.design/components/table-cn/#Column)
 
 
 ## Schema [action]

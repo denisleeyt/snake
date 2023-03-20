@@ -3,7 +3,7 @@
  */
 
 import React, { useState } from 'react';
-import Snake from '@bybit-fe/snake';
+import Snake from '@denisli/snake';
 import JsonEditor from './JsonEditor';
 import { Card } from 'antd';
 
@@ -13,7 +13,7 @@ const initialSchema = {
     fields: [
       {
         name: 'countryCode',
-        label: '国家代码:',
+        label: 'Country code:',
         render: 'input',
       },
     ],
@@ -30,23 +30,23 @@ const initialSchema = {
       },
       {
         key: 'countryId',
-        title: '数字代码',
+        title: 'Digital Code',
       },
       {
         key: 'enName',
-        title: '英文名称',
+        title: 'English Name',
       },
       {
         key: 'cnName',
-        title: '中文名称',
+        title: 'Chinese Name',
       },
       {
         key: 'countryCode',
-        title: '国家代码',
+        title: 'Country code',
       },
       {
         key: 'operation',
-        title: '操作',
+        title: 'Action',
         render: [
           'search-table-view',
           'search-table-edit',
@@ -82,7 +82,7 @@ const initialSchema = {
     fields: [
       {
         name: 'countryId',
-        label: '数字代码:',
+        label: 'Digital Code:',
         render: 'input',
         rules: [
           {
@@ -93,17 +93,17 @@ const initialSchema = {
       },
       {
         name: 'enName',
-        label: '英文名称:',
+        label: 'English Name:',
         render: 'input',
       },
       {
         name: 'cnName',
-        label: '中文名称:',
+        label: 'Chinese Name:',
         render: 'input',
       },
       {
         name: 'countryCode',
-        label: '国家代码:',
+        label: 'Country code:',
         render: 'input',
       },
     ],
